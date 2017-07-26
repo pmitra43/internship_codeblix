@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Test</title>
+	<link rel="stylesheet" type="text/css" href="CSS/styles.css">
+	<script>
+	function textfoc()
+	{
+		alert("CALLED");
+	}
+	function butcall()
+	{
+		document.getElementById('inptxt').text="DISPLAY";
+	}
+	</script>
+</head>
+<body> 
+
+	<div id="head">
+		<ul>
+		<li><a href="a.html">Click 1</a></li>
+		<li><a href="a.html">Click 2</a></li>
+		<li><a href="a.html">Click 3</a></li>
+		<li><a href="a.html">Click 4</a></li>
+		</ul>
+	</div>
+	<input type="text" id="ipntxt" name="text" onfocus="textfoc()">
+	<input type="button" name="inpbut" value="CLICK" onclick="butcall()">
+	<div id="abc">
+	</div>
+	<div id="d1">
+		<div id="c1">
+			C1
+		</div>
+		<div id="c2">
+			C2
+		</div>
+		<div id="c3">
+			C3
+		</div>
+		<div id="c4">
+			C4
+		</div>
+		
+	</div>
+</body>

@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Sign in</title>
+		<script src="js/scripts.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+			<div class="header">
+				<h1>WELCOME</h1>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a id="home" onclick="home_click()" >Home</a></li>
+					<li><a id="signup" onclick="signup_click()" >Sign up</a></li>
+					<li><a id="login" onclick="login_click()" >Log in</a></li>
+					<li><a id="logout" onclick="logout_click()" >Log out</a></li> 
+				</ul>
+			</div>
+			
+			<div class="popup" id="signupdiv">
+				<form action="signup.php" id="signupform" method="POST" name="suform">
+					<img src="images/close.png" class="close" onclick="home_click()" height="20px" width="20px">
+					<h2>Sign Up</h2>
+					<hr>
+					<input type="text" id="sumail" name="mail" placeholder="Enter email ID"><br>
+					<input type="password" id="supwd" name="pwd" placeholder="Enter password"><br>
+					<input type="password" id="sucnfpwd" name="cnfpwd" placeholder="Confirm password"><br>
+					<select id="gen">
+						<option value="0">Select Gender</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+					<br>
+					<a href="#" onclick="su_submit()" class="submit">Sign up</a>
+				</form>
+			</div>
+			
+			<div class="popup" id="logindiv">
+				<form action="login.php" id="loginform" method="POST" name="liform">
+					<img src="images/close.png" class="close" onclick="home_click()" height="20px" width="20px">
+					<h2>Log In</h2>
+					<hr>
+					<input type="text" id="limail" name="mail" placeholder="Enter email ID"><br>
+					<input type="password" id="lipwd" name="pwd" placeholder="Enter password"><br>
+					</select>
+					<br>
+					<a href="#" onclick="li_submit()" class="submit">Log in</a>
+				</form>
+			</div>
+			<div class="popup" id="logoutdiv">
+					<img src="images/close.png" class="close" onclick="home_click()" height="20px" width="20px">
+					<h2>Thank You!</h2>
+					<hr>
+					<p style="text-align:center">You have successfully logged out.</p>
+			</div>
+			<div class="footer">priyammitra</div>
+	</body>
+
+</html>

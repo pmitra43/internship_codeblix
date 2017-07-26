@@ -1,0 +1,47 @@
+#head ul li
+{
+	display: inline;
+}
+#d1
+{
+	font-size: 100px;
+	text-align: center;
+	color: yellow;
+	border:2px dashed #000;
+	overflow: hidden;
+	height: auto;
+	padding-left: 10px;
+}
+
+#c1
+{
+	float: left;
+	text-align: center;
+	color: green;
+	border:1px solid #000;
+	width: 100%;
+}
+#c2
+{
+	float: left;
+	text-align: center;
+	color: green;
+	border:1px solid #000;
+	width: 49.7%;
+}
+#c3
+{
+	float: left;
+	text-align: center;
+	color: green;
+	border:1px solid #000;
+	width: 49.7%;
+}
+#c4
+{
+	float: left;
+	text-align: center;
+	color: green;
+	border:1px solid #000;
+	width: 100%;
+}
